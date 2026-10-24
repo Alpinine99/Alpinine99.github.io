@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Alpinine | Computer help, security and automation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef1f4;--ink:#14202b;--mute:#4d5c6b;--line:#cdd5dd;--accent:#0f6e6e;--accent-ink:#fff;--soft:#e2e8ee;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root:not([data-theme="light"]){color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d151c;--ink:#e6edf2;--mute:#9db0bf;--line:#26343f;--accent:#4fc3c3;--accent-ink:#06191a;--soft:#15222b;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d151c;--ink:#e6edf2;--mute:#9db0bf;--line:#26343f;--accent:#4fc3c3;--accent-ink:#06191a;--soft:#15222b;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.6 "Public Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.1;margin:0}
+.wrap{max-width:68rem;margin:0 auto;padding:0 1.25rem}
+section{padding:3.5rem 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(1.6rem,4vw,2.2rem);margin-bottom:.75rem}
+h3{font-size:1.25rem;margin-bottom:.5rem}
+p{margin:0 0 1rem;max-width:62ch}
+.mute{color:var(--mute)}
+a{color:var(--accent)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.hero{padding:4rem 0 3.5rem}
+.hero h1{font-size:clamp(2.2rem,6.5vw,4.2rem);font-weight:700;letter-spacing:-.02em;max-width:18ch;margin-bottom:1.25rem}
+.lead{font-size:1.2rem;color:var(--mute)}
+.call{display:inline-block;font:700 clamp(1.8rem,7vw,3rem)/1 "Bricolage Grotesque",system-ui,sans-serif;color:var(--accent);text-decoration:none;margin:.5rem 0 1rem;border-bottom:4px solid var(--accent)}
+.btns{display:flex;flex-wrap:wrap;gap:.75rem}
+.btn{display:inline-block;padding:.8rem 1.3rem;border-radius:.4rem;font-weight:600;text-decoration:none;border:2px solid var(--accent)}
+.btn.main{background:var(--accent);color:var(--accent-ink)}
+.cols{display:grid;gap:2rem;grid-template-columns:1fr}
+@media(min-width:48rem){.cols{grid-template-columns:repeat(2,1fr);gap:3rem}}
+ul.tick{margin:0;padding-left:1.1rem;max-width:62ch}
+ul.tick li{margin-bottom:.45rem}
+.band{background:var(--soft);border-top:0}
+.proj{list-style:none;margin:0;padding:0}
+.proj li{display:grid;gap:.2rem;padding:1rem 0;border-bottom:1px solid var(--line)}
+@media(min-width:48rem){.proj li{grid-template-columns:15rem 1fr;gap:1.5rem;align-items:baseline}}
+.proj a{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-size:1.1rem;font-weight:700}
+.steps{margin:0;padding-left:1.25rem;max-width:62ch}
+.steps li{margin-bottom:.7rem}
+footer{padding:2rem 0 3rem;border-top:1px solid var(--line);color:var(--mute);font-size:.95rem}
+</style>
+</head>
+<body>
+<main class="wrap">
+
+<header class="hero">
+  <h1>Computer slow, Wi‑Fi down, or something looks wrong? I’m the one to call.</h1>
+  <p class="lead">Friendly, no-jargon computer help for individuals and families, and for small businesses that need things set up securely or automated.</p>
+  <a class="call" href="tel:+254751891501">0751 891 501</a>
+  <div class="btns">
+    <a class="btn main" href="https://wa.me/254751891501?text=Hi%2C%20I%20need%20help%20with%20my%20computer">Message on WhatsApp</a>
+    <a class="btn" href="#help">What I fix</a>
+  </div>
+</header>
+
+<section id="help">
+  <h2>Help for you and your computer</h2>
+  <p class="mute">Not sure what’s wrong? Describe it and I’ll tell you what I think and what it will cost before I touch anything.</p>
+  <div class="cols">
+    <ul class="tick">
+      <li>Slow, freezing or noisy computers</li>
+      <li>Viruses, pop-ups and suspicious software</li>
+      <li>Windows or Linux installs and reinstalls</li>
+      <li>Wi‑Fi and internet that drop or crawl</li>
+    </ul>
+    <ul class="tick">
+      <li>Setting up a new laptop or printer</li>
+      <li>Backing up photos and important files</li>
+      <li>Securing your accounts and passwords</li>
+      <li>Explaining things so you can handle them next time</li>
+    </ul>
+  </div>
+</section>
+
+<section id="business" class="band">
+  <div class="wrap" style="padding:0">
+  <h2>For small businesses</h2>
+  <div class="cols">
+    <div><h3>Server setup and security</h3><p class="mute">Linux servers set up properly: firewall rules (ufw), protection against repeated login attacks (fail2ban), locked-down remote access, updates and backups.</p></div>
+    <div><h3>Automation</h3><p class="mute">Scripts and small tools that replace repetitive work: reports, file handling, backups, scheduled tasks and live dashboards.</p></div>
+    <div><h3>Websites</h3><p class="mute">Clear, fast websites and web tools, built, hosted and handed over so you can run them.</p></div>
+    <div><h3>Network troubleshooting</h3><p class="mute">Slow office networks, devices that can’t connect, and mixed Windows and Linux setups traced to the real cause.</p></div>
+  </div>
+  </div>
+</section>
+
+<section id="work">
+  <h2>Work you can check</h2>
+  <p class="mute">I build and publish my own projects. Every one of these is open on GitHub.</p>
+  <ul class="proj">
+    <li><a href="https://github.com/Alpinine99/trashing-recovery-system">Trash and recovery system</a><span class="mute">Automated trashing and recovery of files in the Unix shell, so deleted files can be brought back.</span></li>
+    <li><a href="https://github.com/Alpinine99/2f-encryption">Two-factor shell login</a><span class="mute">Two-factor authentication for shell logins, plus data encryption.</span></li>
+    <li><a href="https://github.com/Alpinine99/remote-cshell">Remote device shell</a><span class="mute">Connect to a remote device and control it, written in C.</span></li>
+    <li><a href="https://github.com/thread101/remote-device-access">Remote device access</a><span class="mute">Connect to a remote machine and run shell commands from Python.</span></li>
+    <li><a href="https://github.com/thread101/simple-home-lab-web-host">Home-lab web host</a><span class="mute">A custom web page that shares the contents of a folder.</span></li>
+    <li><a href="https://github.com/thread101/chat-room">Chat room host</a><span class="mute">Host a chat site from your own machine out to the internet.</span></li>
+  </ul>
+  <p class="mute" style="margin-top:1rem">More on GitHub: <a href="https://github.com/Alpinine99">Alpinine99</a> and <a href="https://github.com/thread101">thread101</a>.</p>
+</section>
+
+<section id="process">
+  <h2>How it works</h2>
+  <ol class="steps">
+    <li>Call or message me and describe the problem.</li>
+    <li>I tell you what I think is wrong and give you a price before starting.</li>
+    <li>I fix it, and explain what I did in plain words.</li>
+    <li>If it comes back, call me again.</li>
+  </ol>
+</section>
+
+<section id="contact">
+  <h2>Need help now?</h2>
+  <p>Call or message me. A short description is enough.</p>
+  <div class="btns">
+    <a class="btn main" href="tel:+254751891501">Call 0751 891 501</a>
+    <a class="btn" href="https://wa.me/254751891501">WhatsApp</a>
+  </div>
+</section>
+
+</main>
+<footer><div class="wrap">Alpinine. Computer help, security and automation. Kenya.</div></footer>
+</body>
+</html>
