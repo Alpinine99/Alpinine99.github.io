@@ -24,13 +24,17 @@ Slow or infected computers, Windows or Linux installs, backups, and account secu
 
 | Project | What it does |
 | --- | --- |
+| [chat-room](https://github.com/thread101/chat-room) | Python and Flask chat app you host from your own machine and share over the internet with a Cloudflare tunnel |
+| [micropython_flask](https://github.com/thread101/micropython_flask) | uFlask: a small Flask-style web framework for MicroPython boards |
+| [micropython_unix_shell](https://github.com/thread101/micropython_unix_shell) | Unix-like shell for Raspberry Pi Pico and other MicroPython boards |
+| [c-struct-over-the-wire](https://github.com/Alpinine99/c-struct-over-the-wire) | C demo of length-prefixed TCP messages using a struct as the packet header |
+| [c--string-view-concept](https://github.com/Alpinine99/c--string-view-concept) | C++ StringView class with chop, trim, split and concatenation, plus tests |
 | [trashing-recovery-system](https://github.com/Alpinine99/trashing-recovery-system) | Automated trashing and recovery of files in the Unix shell |
 | [2f-encryption](https://github.com/Alpinine99/2f-encryption) | Two-factor shell login and data encryption |
 | [remote-cshell](https://github.com/Alpinine99/remote-cshell) | Connect to a remote device, written in C |
 | [Arduino-keypad-library](https://github.com/Alpinine99/Arduino-keypad-library) | An easy-to-use keypad library for Arduino |
 | [remote-device-access](https://github.com/thread101/remote-device-access) | Run shell commands on a remote machine from Python |
 | [simple-home-lab-web-host](https://github.com/thread101/simple-home-lab-web-host) | A custom page that shares the contents of a folder |
-| [chat-room](https://github.com/thread101/chat-room) | Host a chat site from your own machine to the internet |
 
 More on GitHub: [Alpinine99](https://github.com/Alpinine99) and [thread101](https://github.com/thread101). Connect on [LinkedIn](https://www.linkedin.com/in/andreas-alpinine-856312447/).
 
