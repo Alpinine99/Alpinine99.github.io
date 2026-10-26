@@ -32,7 +32,7 @@ Slow or infected computers, Windows or Linux installs, backups, and account secu
 | [simple-home-lab-web-host](https://github.com/thread101/simple-home-lab-web-host) | A custom page that shares the contents of a folder |
 | [chat-room](https://github.com/thread101/chat-room) | Host a chat site from your own machine to the internet |
 
-More on GitHub: [Alpinine99](https://github.com/Alpinine99) and [thread101](https://github.com/thread101).
+More on GitHub: [Alpinine99](https://github.com/Alpinine99) and [thread101](https://github.com/thread101). Connect on [LinkedIn](https://www.linkedin.com/in/andreas-alpinine-856312447/).
 
 ---
 
